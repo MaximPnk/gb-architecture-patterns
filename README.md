@@ -20,3 +20,4 @@
 ### Behavioral (Поведенческие)
 
 * #### Chain of responsibility
+* #### Command
