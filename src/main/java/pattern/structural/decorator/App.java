@@ -8,8 +8,8 @@ public class App {
 
     public static void main(String[] args) {
         UserService userService = new UserService();
-        UserServiceDecorator serviceDecorator = new UserServiceDecorator(userService);
-        UserServiceLogDecorator logDecorator = new UserServiceLogDecorator(userService);
+        UserServiceDecorator serviceDecorator = new UserServiceDecorator(new UserService());
+        UserServiceLogDecorator logDecorator = new UserServiceLogDecorator(new UserServiceDecorator(new UserService()));
 
         userService.saveNewUser("Alex");
         serviceDecorator.saveNewUser("Peter");
