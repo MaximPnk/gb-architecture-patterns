@@ -2,7 +2,7 @@
 
 ### Creational (Порождающие)
 
-* #### Abstract Factory
+* #### Abstract factory
 * #### Factory
 * #### Builder
 * #### Singleton
@@ -21,3 +21,7 @@
 
 * #### Chain of responsibility
 * #### Command
+* #### Observer
+* #### State
+* #### Strategy
+* #### Template method
