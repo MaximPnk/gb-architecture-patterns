@@ -25,3 +25,8 @@
 * #### State
 * #### Strategy
 * #### Template method
+
+### System (Архитектурные Системные)
+
+* #### Data mapper
+* #### Identity map
